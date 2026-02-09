@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 
-const firstName = "Joaquin";
-const lastName = "Alizegui";
+const firstName = " Joaquin ";
+const lastName = " Alizegui ";
 const favoriteGames = ["The Withcer", " Lineage II", "League of Legends"];
 const isActive = true;
 const address = {
@@ -12,7 +12,7 @@ const myStyle: CSSProperties = {
   backgroundColor: "#fafafa",
   borderRadius: isActive ? 10 : 20,
   padding: 10,
-  marginTop:30,
+  marginTop: 30,
 };
 export function MyAwesomeApp() {
   return (
